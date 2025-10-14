@@ -1,0 +1,15 @@
+//Find Maximum and Minimum Element in Array
+let num=[20,45,30,35,40];
+let max=num[0];
+for(let i=0;i<num.length;i++) {
+  if((num[i]>max)) {
+    max=num[i];
+  }
+}
+let min=num[0];
+for(let k=0;k<num.length;k++) {
+  if((num[k]<min)) {
+    min=num[k];
+  }
+}
+console.log(`The Max element is =${max} and the min element is =${min}`);
