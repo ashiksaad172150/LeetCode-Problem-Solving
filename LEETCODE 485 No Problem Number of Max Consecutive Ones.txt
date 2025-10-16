@@ -1,0 +1,16 @@
+let pro=[1,1,1,0,1,1,0,1,1,1,1];
+let maxc=0;
+let count=0;
+for(let i=0;i<pro.length;i++) {
+    if(pro[i]==1) {
+        count++;
+        if(count>maxc) {
+            maxc=count;
+        }
+    }
+    else {
+        count=0;
+    }
+}
+
+console.log("The Max Consecutive one is",maxc);
