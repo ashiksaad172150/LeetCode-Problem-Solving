@@ -1,0 +1,4 @@
+var pal=[10,20,30,40,50,60,70];
+var target=prompt("What is the targated element?");
+pal=pal.filter(item=>item!=target);
+document.write(pal);
